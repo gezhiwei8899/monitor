@@ -4,9 +4,9 @@
     "pages/tool/tool",
     "pages/mine/mine",
     "pages/inner/server/server",
-    "pages/inner/traffic",
     "pages/inner/traffic/traffic",
-    "pages/inner/cicd/cicd"
+    "pages/inner/application/application",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarTitleText": "云监控"

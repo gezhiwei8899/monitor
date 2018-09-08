@@ -1,4 +1,4 @@
-// pages/inner/traffic.js
+// pages/inner/application/application.js
 Page({
 
   /**

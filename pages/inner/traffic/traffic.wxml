@@ -1,2 +1,13 @@
 <!--pages/inner/traffic/traffic.wxml-->
-<text>pages/inner/traffic/traffic.wxml</text>
+<!-- <text>pages/inner/traffic/traffic.wxml</text> -->
+<view wx:for="{{array}}">
+  <view>
+    containerName:{{item.containerName}}
+  </view>
+  <view>
+     input:{{item.input}}
+  </view>
+  <view>
+      output:{{item.output}}
+  </view>
+</view>

@@ -1,27 +1,20 @@
 <view class="container">
-  <view class="mgr_common">
-    <navigator url="{{server.url}}">
-      <view class="img">
-        <image src=" {{server.icon}}" mode="scaleToFill" />
-      </view>
-      <text class="txt">{{server.name}}</text>
-    </navigator>
+  <view class="mgr_common" bindtap="checkLogin">
+    <view class="img">
+      <image src=" {{server.icon}}" mode="scaleToFill" />
+    </view>
+    <text class="txt">{{server.name}}</text>
+  </view>
+  <view class="mgr_common" bindtap="navTo">
+    <view class="img">
+      <image src=" {{traffic.icon}}" mode="scaleToFill" />
+    </view>
+    <text class="txt">{{traffic.name}}</text>
   </view>
   <view class="mgr_common">
-    <navigator url="{{traffic.url}}">
-      <view class="img">
-        <image src=" {{traffic.icon}}" mode="scaleToFill" />
-      </view>
-      <text class="txt">{{traffic.name}}</text>
-    </navigator>
+    <view class="img">
+      <image src=" {{application.icon}}" mode="scaleToFill" />
+    </view>
+    <text class="txt">{{application.name}}</text>
   </view>
-  <view class="mgr_common">
-    <navigator url="{{cicd.url}}">
-      <view class="img">
-        <image src=" {{cicd.icon}}" mode="scaleToFill" />
-      </view>
-      <text class="txt">{{cicd.name}}</text>
-    </navigator>
-  </view>
-  
 </view>

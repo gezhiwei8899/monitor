@@ -5,7 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+      array: [{
+        containerName:'asdf34s-0af-asdfasdf',
+        input:'2342',
+        output:'2345'
+      }, {
+          containerName: 'as34s-dfasf-asdfasdf',
+          input: '2342',
+          output: '2345'
+      }]
   },
 
   /**

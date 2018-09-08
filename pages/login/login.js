@@ -1,4 +1,4 @@
-// pages/inner/cicd/cicd.js
+// pages/login/login.js
 Page({
 
   /**

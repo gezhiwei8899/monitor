@@ -12,14 +12,33 @@ Page({
     },
     traffic: {
       url: '/pages/inner/traffic/traffic',
-      icon: '',
+      icon: '/image/cvm-hover.svg',
       name: '流量服务'
     },
-    cicd: {
-      url: '/pages/inner/cicd/cicd',
-      icon: '',
-      name: '自动发布'
+    application: {
+      url: '/pages/inner/application/application',
+      icon: '/image/cvm-hover.svg',
+      name: '应用服务'
     }
+  },
+
+  checkLogin:function(){
+      wx.request({
+        url: 'http://localhost:8080/users/user_info',
+        method: 'get',
+        success: function(res){
+          console.log(res)
+        },
+        fail:function(res){
+          return
+        }
+      })
+  },
+
+  navTo: function(){
+    wx.navigateTo({
+      url: '/pages/inner/traffic/traffic',
+    })
   },
 
   /**
