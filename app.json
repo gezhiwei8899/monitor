@@ -2,10 +2,14 @@
   "pages": [
     "pages/mgr/mgr",
     "pages/tool/tool",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/inner/server/server",
+    "pages/inner/traffic",
+    "pages/inner/traffic/traffic",
+    "pages/inner/cicd/cicd"
   ],
   "window": {
-    "navigationBarTitleText": "Demo"
+    "navigationBarTitleText": "云监控"
   },
   "tabBar": {
     "list": [
@@ -18,8 +22,8 @@
         "text": "工具"
       },
       {
-        "pagePath":"pages/mine/mine",
-        "text":"我的"
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
       }
     ]
   },
