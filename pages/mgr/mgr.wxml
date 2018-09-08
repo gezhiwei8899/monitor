@@ -1,0 +1,6 @@
+<!--pages/mgr/mgr.wxml-->
+<view>{{msg}}</view>
+
+<view wx:for="{{array}}">
+  {{index}}: {{item.message}}
+</view>
