@@ -1,0 +1,26 @@
+.mgr_common {
+  float: left;
+  position: relative;
+  width: 33.33333333%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.mgr_common .img {
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+}
+
+.mgr_common .img image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mgr_common .txt {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+}
